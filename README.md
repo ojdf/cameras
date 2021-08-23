@@ -22,7 +22,8 @@ Z.setup_sequence(exposure_time, EMgain=gain, nframes=N)
 frames = Z.snap_sequence()
 ```
 
-Note that some 
+Note that some variable names (e.g. EMgain) don't really make sense in the context of this camera but are 
+kept the same to ensure compatibility with old code.
 
 ### Andor
 Some sort of Andor SDK? Idk. Definitely works with an Andor Luca on some ancient version of Ubuntu.
