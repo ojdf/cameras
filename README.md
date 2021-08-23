@@ -12,7 +12,7 @@ Then get the python bindings from here: [https://github.com/stevemarple/python-z
 Once both of those are installed, you should be able to `import zwoasi` (it may show an error about not finding the SDK, ignore it).
 
 You then need to set the `ASI_LIB` attribute in `zwo.py` to point to the correct 
-path (from the Andor SDK install), which should be a `.so`, `.dylib` or `.dll` depending on platform.
+path (from the ZWO SDK install), which should be a `.so`, `.dylib` or `.dll` depending on platform.
 
 If it is working, you should be able to get frames from a camera with something like the following:
 ```
